@@ -1,0 +1,54 @@
+.topbar {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3f3f3f;
+    margin: 0;
+    padding: 0;
+}
+
+.painelJogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 1.5rem;
+}
+
+.statusJogo {
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+
+.cell:hover {
+    background-color: #e0e0e0;
+}

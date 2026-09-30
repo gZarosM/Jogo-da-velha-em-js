@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jogo da Velha</title>
+        <link rel="stylesheet" href="jogo.css">
+    </head>
+
+    <body>
+        <main class="paginaJogo">
+            <header class="topbar">
+                <div class="marca">
+                    <span>Jogo da Velha</span>
+                </div>
+            </header>
+
+            <section class="painelJogo">
+                <div class="areaTabuleiro">
+                    <div id="tabuleiro">
+                        <!-- O tabuleiro será gerado dinamicamente via JavaScript -->
+                    </div>
+                </div>
+
+                <p id="statusJogo" class="statusJogo">Vez do jogador: X</p>
+
+                <div class="areaControles">
+                    <button id="reiniciarBtn">Reiniciar</button>
+                </div>
+            </section>
+            <script src="jogo.js"></script>
+        </main>
+</html>
